@@ -2,10 +2,10 @@
 debian-standerd-bspwm
 ################################################################### 
 <b>
-#install minimal debian
-#git clone this repo to home directory
-#enter su mode by typing (sudo su)
-#run steps script
+<li>#install minimal debian
+<li>#git clone this repo to home directory
+<li>#enter su mode by typing (sudo su)
+<li>#run steps script
 #  
 
 </b>.
