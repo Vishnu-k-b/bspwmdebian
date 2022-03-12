@@ -1,6 +1,6 @@
 # bspwmdebian
-debian-standerd-bspwm
-################################################################### 
+debian-minimal-bspwm
+<li>###################################################################
 <b>
 <li>#install minimal debian
 <li>#git clone this repo to home directory
@@ -8,51 +8,28 @@ debian-standerd-bspwm
 <li>#run steps script 
 </b>.
 
-<br><br>Here's the link for you to watch the sessions as well<br>
+<br><br>Here's the screen shot<br>
 
-<a href="https://www.youtube.com/playlist?list=PL7zl8TDRnbulNEA-59W7wWgCWE8LEOD6h"> <img src="https://github.com/ShapeAI/PYTHON-AND-DATA-ANALYTICS/blob/main/YOUTUBE%20THUMBNAIL-5.png"> </a>
+<a> <img src="https://github.com/Vishnu-k-b/bspwmdebian/blob/main/image.png"> </a>
 
-<br>I got to have hands on experience on:
+<br>packages contained:
 
-<li>Python
-
-<li>Machine Learning
-
-<li>Tensorflow
-
-<br>during these 7 days, and everything was explained from the very basics so that
-
-anyone with zero experience on programming can learn.
-
-I enjoyed these 7 days, you can as well. To register for next free 7 days bootcamp, visit:
-
-<a href="https://www.shapeai.tech"> www.shapeai.tech</a>
-
-or follow SHAPEAI on:
-
-<li><a href=
-
-"https://in.linkedin.com/company/shapeai">LinkedIn</a>
-
-<li><a href=
-
-"https://www.instagram.com/shape.ai/?hl=en">Instagram</a>
-
-<li><a
-
-href=
-
-"https://www.youtube.com/channel/UCTUvDLTW9meuDXWcbmISPdA">YouTu
-
-be</a>
-
-<li><a href=
-
-"https://github.com/shapeai">GitHub</a>
-
-
-
-
-
+<li>feh
+<li>firefox
+<li>xfce4-terminal
+<li>thunar
+<li>alacritty
+<li>tint2
+<li>geany
+<li>bspwm
+<li>sxhkd
+<li>exa
+<li>gnome-disks
+<li>rofi 
+<li>picom
+<li>xarchiver
+<li>lxappearence
+<li>pulseaudio
+<li>Download telegram appimage to ~/Telegram , and name it Telegram to run from panel (IF NEEDED)
+<li>################################################################
  
-
