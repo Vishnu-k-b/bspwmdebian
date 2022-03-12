@@ -1,0 +1,6 @@
+alias ls='exa -lGa'
+alias aptuu='sudo apt update && sudo apt upgrade'
+alias apti='sudo apt install'
+alias aptr='sudo apt autoremove'
+alias tarc=''
+alias tarx=''
