@@ -7,7 +7,7 @@ sudo cp ~/bspwmdebian/desktop_debian/thegopuram /usr/bin/
 sudo cp -r ~/bspwmdebian/filesystem/usr/share/slim/themes/boxy /usr/share/slim/themes/
 sudo cp ~/bspwmdebian/filesystem/etc/slim.conf /etc
 ###############################################################################
-mkdir -p ~/.config
+mkdir ~/.config
 cp -r ~/bspwmdebian/config/alacritty ~/.config
 cp -r ~/bspwmdebian/config/bspwm ~/.config
 cp -r ~/bspwmdebian/config/geany ~/.config
