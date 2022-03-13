@@ -1,0 +1,31 @@
+#installs
+apt install xorg geany thunar lxappearance tint2 bspwm rofi sxhkd pulseaudio pavucontrol slim xfce4-terminal firefox-esr xarchiver git feh vlc cmake cmake-data gnome-disk-utility
+dpkg -i ~/bspwmdebian/desktop_debian/alacritty_0.4.2-1_amd64_debian_buster.deb
+dpkg -i ~/bspwmdebian/desktop_debian/exa_0.9.0-5+b1_amd64.deb
+#cp to root
+cp ~/bspwmdebian/desktop_debian/thegopuram /usr/bin/
+cp -r ~/bspwmdebian/filesystem/usr/share/slim/themes/boxy /usr/share/slim/themes/
+cp ~/bspwmdebian/filesystem/etc/slim.conf /etc
+unzip ~/bspwmdebian/desktop_debian/Gruvbox-Dark.zip -d /usr/share/themes/
+tar -xf ~/bspwmdebian/desktop_debian/Win10Sur.tar.xz -C /usr/share/icons/
+##############################################################################
+##############################################################################
+cd ~/bspwmdebian
+git clone https://github.com/yshui/picom.git
+cd picom
+apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson 
+git submodule update --init --recursive
+meson --buildtype=release . build
+ninja -C build
+sudo ninja -C build install
+################################################################################
+################################################################################
+#alias ls='exa -lGa'
+#alias aptuu='sudo apt update && sudo apt upgrade'
+#alias apti='sudo apt install'
+#alias aptr='sudo apt autoremove'
+#alias tarx='tar -xzvf'
+###############################################################################
+###############################################################################
+#unzip ~/bspwmdebian/desktop_debian/Gruvbox-Dark.zip -d /usr/share/themes/
+#tar -xf ~/bspwmdebian/desktop_debian/Win10Sur.tar.xz -C /usr/share/icons/
