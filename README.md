@@ -4,8 +4,8 @@ debian-minimal-bspwm
 <b>
 <li>#install minimal debian
 <li>#git clone this repo to home directory
-<li>#enter super user mode by typing (sudo su)
-<li>#run steps script 
+<li>#enter sudo mode run stepsroot
+<li>#run stepsuser script 
 </b>.
 
 <br><br>Here's the screen shot<br>
